@@ -1,47 +1,80 @@
 <!DOCTYPE html>
 <html lang="de">
 
-  <head>
-    <meta CHARSET="utf-8">
-    <title>Zarenbraut erzählt</title>
-    <meta name="description" content="Hier gibts Kunst.Komm vorbei.">
-    <meta name="viewport" content="width=device-width">
+<head>
+  <meta CHARSET="utf-8">
+  <title>Zarenbraut erzählt</title>
+  <meta name="description" content="Hier gibts Kunst.Komm vorbei.">
+  <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" href="style.css">
   <script src="menu.js" defer>
   </script>
-  </head>
+</head>
 
 
-  <body>
-    <header id="header">
-      <a href="#">
-        <img src="img/logo.svg" alt="Logo Kochmütze"height="40" title="huhu">
-      </a>
+<body>
+  <header id="header">
+    <a href="#">
+      <img src="img/logo.svg" alt="Logo Kochmütze" height="40" title="huhu">
+    </a>
 
-      <button type="button" name="button" id="burger">
-        <img src="img/menu.svg.svg" alt="menu Icon" width="40">
-      </button>
+    <button type="button" name="button" id="burger">
+      <img src="img/menu.svg.svg" alt="menu Icon" width="40">
+    </button>
 
-      <nav id="navigation">
-        <ul id="menu">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Rezept</a>
-          </li>
-          <li>
-            <a href="#">Kategorie one</a>
-          </li>
-          <li>
-            <a href="#">Kategorie two</a>
-          </li>
-        </ul>
-      </nav>
+    <nav id="navigation">
+      <ul id="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Rezept</a>
+        </li>
+        <li>
+          <a href="#">Kategorie one</a>
+        </li>
+        <li>
+          <a href="#">Kategorie two</a>
+        </li>
+      </ul>
+    </nav>
 
-    </header>
+  </header>
 
-  </body>
+  <main>
+    <section id="hero">
+      <div class="welcome">
+        <h1>Die besten Rezepte für Webworker</h1>
+        <p>Schnell und einfach</p>
+        <a href="#rezepte" class="button button-white">Entdecke die Leckereien</a>
+      </div>
+    </section>
+
+    <section id="rezepte">
+
+      <h2> Die neuesten Rezepte </h2>
+
+      <article class="card">
+        <a href="#">
+          <img src="img/burger.jpg" alt="">
+        </a>
+        <h3>
+          <a href="#">total leckere Pizza</a>
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <a href="#" class="button button-blue">Zum Rezept</a>
+
+
+      </article>
+
+    </section>
+  </main>
+
+
+</body>
 
 </html>
