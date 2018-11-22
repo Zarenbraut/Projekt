@@ -85,3 +85,21 @@ border: 1px solide #374a67;
 
 
 }
+
+.card{
+  border-radius: 4px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 5);
+  width: 100%;
+
+}
+.card img{
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-raduis:4px;
+
+}
+
+#rezepte{
+  padding:1rem;
+  
+}
